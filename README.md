@@ -27,8 +27,132 @@ Everything in this list needs real content before the site is ready to share pub
 - [ ] **Parking** — blank field in the info table
 - [ ] **Boat Launch** — blank field in the info table
 - [ ] **Notes** — placeholder text, needs real fishing notes
+- [ ] **MA DFW lake survey URL** — replace `PASTE_MA_DFW_URL` in `waters.html`
 - [ ] **Google Maps link** — replace `PASTE_GOOGLE_MAPS_URL_HERE` in `waters.html`
-- [ ] **Lake map image** — save to `images/waters/west-monponsett-map.jpg`, uncomment the `<img>` line
+- [ ] **Lake map image** — save to `images/waters/west-monponsett-map.jpg`, replace the placeholder div with the `<img>` line
+
+### Waters — Burrage Pond
+- [ ] **Verify town** — currently set to Hanson; confirm before publishing
+- [ ] **Acres**
+- [ ] **Max Depth**
+- [ ] **Species** list
+- [ ] **Access** details
+- [ ] **Parking** details
+- [ ] **Boat Launch** details
+- [ ] **Fishing notes**
+- [ ] **MA DFW lake survey URL** — replace `PASTE_MA_DFW_URL`
+- [ ] **Google Maps link** — replace `PASTE_GOOGLE_MAPS_URL_HERE`
+- [ ] **Lake map image** — save to `images/waters/burrage-pond-map.jpg`, replace the placeholder div with the `<img>` line
+
+### Waters — Cleveland Pond
+- [ ] **Verify town** — currently set to East Bridgewater; confirm before publishing
+- [ ] **Acres**
+- [ ] **Max Depth**
+- [ ] **Species** list
+- [ ] **Access** details
+- [ ] **Parking** details
+- [ ] **Boat Launch** details
+- [ ] **Fishing notes**
+- [ ] **MA DFW lake survey URL** — replace `PASTE_MA_DFW_URL`
+- [ ] **Google Maps link** — replace `PASTE_GOOGLE_MAPS_URL_HERE`
+- [ ] **Lake map image** — save to `images/waters/cleveland-pond-map.jpg`, replace the placeholder div with the `<img>` line
+
+### Waters — Furnace Pond
+- [ ] **Acres**
+- [ ] **Max Depth**
+- [ ] **Species** list
+- [ ] **Access** details
+- [ ] **Parking** details
+- [ ] **Boat Launch** details
+- [ ] **Fishing notes**
+- [ ] **MA DFW lake survey URL** — replace `PASTE_MA_DFW_URL`
+- [ ] **Google Maps link** — replace `PASTE_GOOGLE_MAPS_URL_HERE`
+- [ ] **Lake map image** — save to `images/waters/furnace-pond-map.jpg`, replace the placeholder div with the `<img>` line
+
+### Waters — Long Pond (Lakeville)
+- [ ] **Verify town(s)** — currently set to Lakeville; confirm if it touches any other towns
+- [ ] **Acres**
+- [ ] **Max Depth**
+- [ ] **Species** list
+- [ ] **Access** details
+- [ ] **Parking** details
+- [ ] **Boat Launch** details
+- [ ] **Fishing notes**
+- [ ] **MA DFW lake survey URL** — replace `PASTE_MA_DFW_URL`
+- [ ] **Google Maps link** — replace `PASTE_GOOGLE_MAPS_URL_HERE`
+- [ ] **Lake map image** — save to `images/waters/long-pond-lakeville-map.jpg`, replace the placeholder div with the `<img>` line
+
+### Waters — Long Pond (Plymouth)
+- [ ] **Verify town(s)** — currently set to Plymouth and Carver; confirm which towns it touches
+- [ ] **Acres**
+- [ ] **Max Depth**
+- [ ] **Species** list
+- [ ] **Access** details (note which town the main parking/access is in)
+- [ ] **Parking** details
+- [ ] **Boat Launch** details
+- [ ] **Fishing notes**
+- [ ] **MA DFW lake survey URL** — replace `PASTE_MA_DFW_URL`
+- [ ] **Google Maps link** — replace `PASTE_GOOGLE_MAPS_URL_HERE`
+- [ ] **Lake map image** — save to `images/waters/long-pond-plymouth-map.jpg`, replace the placeholder div with the `<img>` line
+
+### Waters — Robbins Pond
+- [ ] **Acres**
+- [ ] **Max Depth**
+- [ ] **Species** list
+- [ ] **Access** details
+- [ ] **Parking** details
+- [ ] **Boat Launch** details
+- [ ] **Fishing notes**
+- [ ] **MA DFW lake survey URL** — replace `PASTE_MA_DFW_URL`
+- [ ] **Google Maps link** — replace `PASTE_GOOGLE_MAPS_URL_HERE`
+- [ ] **Lake map image** — save to `images/waters/robbins-pond-map.jpg`, replace the placeholder div with the `<img>` line
+
+### Waters — Sampsons Pond
+- [ ] **Acres**
+- [ ] **Max Depth**
+- [ ] **Species** list
+- [ ] **Access** details
+- [ ] **Parking** details
+- [ ] **Boat Launch** details
+- [ ] **Fishing notes**
+- [ ] **MA DFW lake survey URL** — replace `PASTE_MA_DFW_URL`
+- [ ] **Google Maps link** — replace `PASTE_GOOGLE_MAPS_URL_HERE`
+- [ ] **Lake map image** — save to `images/waters/sampsons-pond-map.jpg`, replace the placeholder div with the `<img>` line
+
+### Waters — Silver Lake
+- [ ] **Verify town(s)** — currently set to Halifax, Kingston, Plympton; confirm all towns
+- [ ] **Update Town field** in the info table to show where the main access/parking is
+- [ ] **Acres**
+- [ ] **Max Depth**
+- [ ] **Species** list
+- [ ] **Access** details
+- [ ] **Parking** details
+- [ ] **Boat Launch** details
+- [ ] **Fishing notes**
+- [ ] **MA DFW lake survey URL** — replace `PASTE_MA_DFW_URL`
+- [ ] **Google Maps link** — replace `PASTE_GOOGLE_MAPS_URL_HERE`
+- [ ] **Lake map image** — save to `images/waters/silver-lake-map.jpg`, replace the placeholder div with the `<img>` line
+
+### Waters — Stetson Pond
+- [ ] **Acres**
+- [ ] **Max Depth**
+- [ ] **Species** list
+- [ ] **Access** details
+- [ ] **Parking** details
+- [ ] **Boat Launch** details
+- [ ] **Fishing notes**
+- [ ] **MA DFW lake survey URL** — replace `PASTE_MA_DFW_URL`
+- [ ] **Google Maps link** — replace `PASTE_GOOGLE_MAPS_URL_HERE`
+- [ ] **Lake map image** — save to `images/waters/stetson-pond-map.jpg`, replace the placeholder div with the `<img>` line
+
+### Waters — Stump Brook
+- [ ] **Verify town** — currently set to Hanson; confirm before publishing
+- [ ] **Species** list
+- [ ] **Access** details (where to park / put in)
+- [ ] **Parking** details
+- [ ] **Fishing notes**
+- [ ] **Google Maps link** — replace `PASTE_GOOGLE_MAPS_URL_HERE`
+- *Note: Acres, Max Depth, and Boat Launch are marked N/A since this is a stream. Remove or adjust those rows if needed.*
 
 ### Gallery
 - [ ] **April 2026 outing** — add description and photos (`images/gallery/`)
