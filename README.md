@@ -18,29 +18,29 @@ Everything in this list needs real content before the site is ready to share pub
 ### Waters — East Monponsett
 - [ ] **Verify acreage** (~239 acres) against the MA DFW lake survey PDF
 - [ ] **Verify max depth** (~16 ft) against the MA DFW lake survey PDF
-- [ ] **Google Maps link** — replace `PASTE_GOOGLE_MAPS_URL_HERE` in `waters.html`
-- [ ] **Lake map image** — download from MA DFW or Navionics, save to `images/waters/east-monponsett-map.jpg`, uncomment the `<img>` line
+- [x] **Google Maps link** — real link in place
+- [x] **Lake map image** — `images/waters/east-monponsett-map.jpg` exists and is live
 
 ### Waters — West Monponsett
 - [ ] **Verify acreage** — currently set to ~117 acres, but a research source returned 282 acres (possibly the combined Monponsett system). Confirm against the MA DFW lake survey PDF before publishing.
-- [ ] **Max Depth** — blank field in the info table
-- [ ] **Access** — blank field in the info table
-- [ ] **Parking** — blank field in the info table
-- [ ] **Boat Launch** — blank field in the info table
-- [ ] **Notes** — placeholder text, needs real fishing notes
+- [x] **Max Depth** — ~13 ft
+- [x] **Access** — Route 58 ramp, Halifax
+- [x] **Parking** — free lot at ramp
+- [x] **Boat Launch** — paved ramp with pier
+- [x] **Notes** — filled in
 - [ ] **MA DFW lake survey URL** — replace `PASTE_MA_DFW_URL` in `waters.html`
 - [ ] **Google Maps link** — replace `PASTE_GOOGLE_MAPS_URL_HERE` in `waters.html`
 - [ ] **Lake map image** — save to `images/waters/west-monponsett-map.jpg`, replace the placeholder div with the `<img>` line
 
 ### Waters — Burrage Pond
 - [ ] **Verify town** — currently set to Hanson; confirm before publishing
-- [ ] **Acres**
-- [ ] **Max Depth**
-- [ ] **Species** list
-- [ ] **Access** details
-- [ ] **Parking** details
-- [ ] **Boat Launch** details
-- [ ] **Fishing notes**
+- [x] **Acres** — noted as multiple impoundments, no single confirmed figure
+- [x] **Max Depth** — ~4 ft
+- [x] **Species** list
+- [x] **Access** — Burrage WMA, Pleasant Street, Hanson
+- [x] **Parking** — free WMA lot
+- [x] **Boat Launch** — hand carry only
+- [x] **Fishing notes** — filled in
 - [ ] **MA DFW lake survey URL** — replace `PASTE_MA_DFW_URL`
 - [ ] **Google Maps link** — replace `PASTE_GOOGLE_MAPS_URL_HERE`
 - [ ] **Lake map image** — save to `images/waters/burrage-pond-map.jpg`, replace the placeholder div with the `<img>` line
@@ -49,60 +49,60 @@ Everything in this list needs real content before the site is ready to share pub
 - [ ] **Verify town** — updated to Abington (Ames Nowell State Park) based on research; confirm this is correct
 - [ ] **Acres** — not found in public sources; pull from the MA DFW lake survey PDF at mass.gov/doc/cleveland-pond (the file exists but was inaccessible during research)
 - [ ] **Max Depth** — not found; same source as above
-- [ ] **Species** list
-- [ ] **Access** details
-- [ ] **Parking** details
-- [ ] **Boat Launch** details
-- [ ] **Fishing notes**
+- [x] **Species** list
+- [x] **Access** — Ames Nowell State Park, Linwood Street, Abington
+- [x] **Parking** — free state park lot
+- [x] **Boat Launch** — non-motorized carry-in only
+- [x] **Fishing notes** — filled in
 - [ ] **MA DFW lake survey URL** — replace `PASTE_MA_DFW_URL`
 - [ ] **Google Maps link** — replace `PASTE_GOOGLE_MAPS_URL_HERE`
 - [ ] **Lake map image** — save to `images/waters/cleveland-pond-map.jpg`, replace the placeholder div with the `<img>` line
 
 ### Waters — Furnace Pond
-- [ ] **Acres**
-- [ ] **Max Depth**
-- [ ] **Species** list
-- [ ] **Access** details
-- [ ] **Parking** details
-- [ ] **Boat Launch** details
-- [ ] **Fishing notes**
+- [x] **Acres** — 115
+- [x] **Max Depth** — ~9 ft
+- [x] **Species** list
+- [x] **Access** — Route 14, Pembroke
+- [x] **Parking** — roadside on Route 14
+- [x] **Boat Launch** — car-top only
+- [x] **Fishing notes** — filled in
 - [ ] **MA DFW lake survey URL** — replace `PASTE_MA_DFW_URL`
 - [ ] **Google Maps link** — replace `PASTE_GOOGLE_MAPS_URL_HERE`
 - [ ] **Lake map image** — save to `images/waters/furnace-pond-map.jpg`, replace the placeholder div with the `<img>` line
 
 ### Waters — Long Pond (Plymouth)
-- [ ] **Verify town(s)** — currently set to Plymouth and Carver; confirm which towns it touches
-- [ ] **Acres**
-- [ ] **Max Depth**
-- [ ] **Species** list
-- [ ] **Access** details (note which town the main parking/access is in)
-- [ ] **Parking** details
-- [ ] **Boat Launch** details
-- [ ] **Fishing notes**
+- [x] **Verify town(s)** — confirmed Plymouth and Carver
+- [x] **Acres** — ~227
+- [x] **Max Depth** — ~100 ft
+- [x] **Species** list
+- [x] **Access** — DCR ramp at 224 Clark Road, Plymouth
+- [x] **Parking** — free state lot, ~29 trailer spaces
+- [x] **Boat Launch** — paved DCR ramp; 50 HP limit
+- [x] **Fishing notes** — filled in
 - [ ] **MA DFW lake survey URL** — replace `PASTE_MA_DFW_URL`
 - [ ] **Google Maps link** — replace `PASTE_GOOGLE_MAPS_URL_HERE`
 - [ ] **Lake map image** — save to `images/waters/long-pond-plymouth-map.jpg`, replace the placeholder div with the `<img>` line
 
 ### Waters — Robbins Pond
-- [ ] **Acres**
-- [ ] **Max Depth**
-- [ ] **Species** list
-- [ ] **Access** details
-- [ ] **Parking** details
-- [ ] **Boat Launch** details
-- [ ] **Fishing notes**
+- [x] **Acres** — 124
+- [x] **Max Depth** — ~10 ft
+- [x] **Species** list
+- [x] **Access** — Pond Street, East Bridgewater
+- [x] **Parking** — roadside on Pond Street
+- [x] **Boat Launch** — informal gravel car-top only
+- [x] **Fishing notes** — filled in
 - [ ] **MA DFW lake survey URL** — replace `PASTE_MA_DFW_URL`
 - [ ] **Google Maps link** — replace `PASTE_GOOGLE_MAPS_URL_HERE`
 - [ ] **Lake map image** — save to `images/waters/robbins-pond-map.jpg`, replace the placeholder div with the `<img>` line
 
 ### Waters — Sampsons Pond
-- [ ] **Acres**
-- [ ] **Max Depth**
-- [ ] **Species** list
-- [ ] **Access** details
-- [ ] **Parking** details
-- [ ] **Boat Launch** details
-- [ ] **Fishing notes**
+- [x] **Acres** — 310
+- [x] **Max Depth** — ~14 ft
+- [x] **Species** list
+- [x] **Access** — 27 Lakeview Street, Carver
+- [x] **Parking** — Carver resident sticker required ($10/year at Town Hall)
+- [x] **Boat Launch** — paved ramp, trailers OK
+- [x] **Fishing notes** — filled in
 - [ ] **MA DFW lake survey URL** — replace `PASTE_MA_DFW_URL`
 - [ ] **Google Maps link** — replace `PASTE_GOOGLE_MAPS_URL_HERE`
 - [ ] **Lake map image** — save to `images/waters/sampsons-pond-map.jpg`, replace the placeholder div with the `<img>` line
@@ -110,36 +110,36 @@ Everything in this list needs real content before the site is ready to share pub
 ### Waters — Silver Lake
 - [ ] **Verify fishing access** — Silver Lake is Brockton's primary drinking water supply. No boating is permitted. Shore fishing appears accessible from Silver Lake Sanctuary (Barses Lane, Kingston) but confirm current rules and whether any permit beyond a state license is required. Contact Kingston Town Hall at 781-585-0537.
 - [ ] **Verify town(s)** — currently set to Halifax, Kingston, Plympton; confirm all towns
-- [ ] **Update Town field** in the info table to show where the main access/parking is
-- [ ] **Acres**
-- [ ] **Max Depth**
-- [ ] **Species** list
-- [ ] **Access** details
-- [ ] **Parking** details
-- [ ] **Boat Launch** details
-- [ ] **Fishing notes**
+- [ ] **Update Town field** — once access is confirmed, update to reflect which town the access point is in
+- [x] **Acres** — 640
+- [x] **Max Depth** — ~80 ft
+- [x] **Species** list
+- [x] **Access** — Silver Lake Sanctuary, Barses Lane, Kingston (shore only)
+- [x] **Parking** — small lot at sanctuary
+- [x] **Boat Launch** — none (no boating allowed)
+- [x] **Fishing notes** — filled in with reservoir caveat
 - [ ] **MA DFW lake survey URL** — replace `PASTE_MA_DFW_URL`
 - [ ] **Google Maps link** — replace `PASTE_GOOGLE_MAPS_URL_HERE`
 - [ ] **Lake map image** — save to `images/waters/silver-lake-map.jpg`, replace the placeholder div with the `<img>` line
 
 ### Waters — Stetson Pond
-- [ ] **Acres**
-- [ ] **Max Depth**
-- [ ] **Species** list
-- [ ] **Access** details
-- [ ] **Parking** details
-- [ ] **Boat Launch** details
-- [ ] **Fishing notes**
+- [x] **Acres** — 93
+- [x] **Max Depth** — 33 ft
+- [x] **Species** list
+- [x] **Access** — Plymouth Street, Pembroke
+- [x] **Parking** — limited roadside off Plymouth Street
+- [x] **Boat Launch** — informal dirt launch, car-top only
+- [x] **Fishing notes** — filled in
 - [ ] **MA DFW lake survey URL** — replace `PASTE_MA_DFW_URL`
 - [ ] **Google Maps link** — replace `PASTE_GOOGLE_MAPS_URL_HERE`
 - [ ] **Lake map image** — save to `images/waters/stetson-pond-map.jpg`, replace the placeholder div with the `<img>` line
 
 ### Waters — Stump Brook
 - [ ] **Verify town** — currently set to Hanson; confirm before publishing
-- [ ] **Species** list
-- [ ] **Access** details (where to park / put in)
-- [ ] **Parking** details
-- [ ] **Fishing notes**
+- [x] **Species** list
+- [x] **Access** — Burrage WMA or Stump Brook Sanctuary; by canoe from West Monponsett ramp
+- [x] **Parking** — Burrage WMA lot, Pleasant Street, Hanson
+- [x] **Fishing notes** — filled in
 - [ ] **Google Maps link** — replace `PASTE_GOOGLE_MAPS_URL_HERE`
 - *Note: Acres, Max Depth, and Boat Launch are marked N/A since this is a stream. Remove or adjust those rows if needed.*
 
