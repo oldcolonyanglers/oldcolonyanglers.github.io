@@ -10,8 +10,8 @@ Everything in this list needs real content before the site is ready to share pub
 
 ### Site-wide
 - [ ] **Club logo** — waiting on graphic designer. Swap into all 7 pages when received (see One-Time Setup below)
-- [ ] **Facebook URL** — replace `PASTE_FACEBOOK_URL` in the footer of all 7 pages
-- [ ] **Instagram URL** — replace `PASTE_INSTAGRAM_URL` in the footer of all 7 pages
+- [x] **Facebook URL** — replace `PASTE_FACEBOOK_URL` in the footer of all 7 pages
+- [x] **Instagram URL** — replace `PASTE_INSTAGRAM_URL` in the footer of all 7 pages
 - [ ] **Merch tab** — hidden until merchandise is ready. See "Enabling the Merch Tab" below to turn it on.
 - [ ] **Membership details** — fill in Annual Dues, Initiation Fee, How to Apply, and Meetings in the table on `about.html`
 
@@ -188,23 +188,6 @@ When you receive your logo from the graphic designer:
 The logo will appear as a circle in the header on every page. The CSS already handles the circular crop.
 
 > **Favicon bonus:** The favicon (browser tab icon) is already wired up on every page pointing to `images/logo.png`. Once you drop the logo file in, it will appear in the tab automatically — no extra steps needed.
-
-### Adding the Hero Pond Photo
-
-When you have your pond photo:
-
-1. Save the file as `images/hero-pond.jpg`
-2. Open **every** `.html` file
-3. Find this line and delete it:
-   ```html
-   <div class="hero-placeholder">Pond photo coming soon</div>
-   ```
-4. Uncomment the line above it:
-   ```html
-   <img src="images/hero-pond.jpg" alt="A scenic view of club waters">
-   ```
-
-The photo will display as a full-width banner between the header and navigation on every page. Landscape orientation works best. The CSS crops it to 220px tall and centers it.
 
 ---
 
