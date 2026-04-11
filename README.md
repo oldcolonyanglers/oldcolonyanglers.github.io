@@ -323,31 +323,6 @@ Paste it inside the `<tbody>` section, above the `<!-- COPY FROM HERE` comment.
 
 ---
 
-## Deploying to GitHub Pages
-
-### First time setup
-
-1. Push the folder to a GitHub repository
-2. Go to the repository on GitHub
-3. Click **Settings** → **Pages** (left sidebar)
-4. Under **Source**, select `Deploy from a branch`
-5. Choose branch: `main`, folder: `/ (root)`
-6. Click **Save**
-7. Your site will be live at `https://YOUR-USERNAME.github.io/YOUR-REPO-NAME/`
-
-### Publishing updates
-
-After editing any file:
-
-```
-git add .
-git commit -m "Brief description of what you changed"
-git push
-```
-
-GitHub Pages automatically rebuilds the site within about a minute.
-
----
 
 ## Updating Fishing Regulations Each Year
 
