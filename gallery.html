@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery — Old Colony Anglers</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="images/logo.png">
+</head>
+<body>
+
+  <header>
+    <div class="header-inner">
+      <!-- <img src="images/logo.png" alt="Old Colony Anglers logo" class="site-logo"> -->
+      <div class="site-logo-placeholder" aria-hidden="true"></div>
+      <div class="header-text">
+        <div class="site-title">Old Colony Anglers</div>
+        <div class="site-tagline">A Sportsmen's Club Serving Massachusetts</div>
+      </div>
+    </div>
+  </header>
+  <div class="hero-banner">
+    <img src="images/hero-pond.jpg" alt="A scenic view of club waters">
+    
+  </div>
+
+  <!-- NAV: If you add a new page, add its link here AND in every other page's nav -->
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="waters.html">Local Fishing Spots</a>
+    <a href="quickstart.html">Getting Started</a>
+    <a href="licenses.html">Licenses</a>
+    <a href="regulations.html">Regulations</a>
+    <a href="gallery.html" class="active">Gallery</a>
+    <!-- <a href="merch.html">Merch</a> -->
+    <a href="about.html">Contact Us</a>
+  </nav>
+
+  <main>
+    <div class="container">
+
+      <h1>Photo Gallery</h1>
+
+      <p>Photos from club outings, catches, and events. Click any photo to open it full size.</p>
+
+      <!-- =====================================================
+           JUMP TO AN OUTING
+           Outings are grouped by year. Click a year to expand it.
+           To add a new outing link: find its year's <details> block
+           and add an <a> line inside .toc-town-waters (newest first).
+           To add a new year: copy a <details> block and update the year.
+           ===================================================== -->
+      <nav class="toc">
+        <strong>Jump to an outing by year:</strong>
+        <details class="toc-town">
+          <summary>2026</summary>
+          <div class="toc-town-waters">
+            <a href="#outing-april-2026">April 2026 — First Outing of the Season</a>
+            <!-- COPY: <a href="#your-outing-id">Month Year — Location or Event</a> -->
+          </div>
+        </details>
+        <!-- COPY a <details> block above to add a new year -->
+      </nav>
+
+      <hr>
+
+      <!-- =====================================================
+           HOW TO ADD AN OUTING
+           1. Copy everything between the dashes below.
+           2. Paste it ABOVE the previous outing (newest first).
+           3. Fill in the outing name and optional description.
+           4. Save your photos to images/gallery/.
+           5. Add one <img> line per photo inside the .gallery div.
+           6. In the TOC above, find the correct year's <details> block
+              and add a matching <a> link (newest at the top).
+              If it's a new year, copy the whole <details> block.
+           ===================================================== -->
+
+      <!-- =================== OUTING ENTRY =================== -->
+      <section class="outing" id="outing-april-2026">
+
+        <h2>April 2026 — First Outing of the Season</h2>
+
+        <p class="outing-description">
+          <!-- Optional: brief description of the outing. Delete this paragraph if not needed. -->
+          The first club outing of 2026. Add a description of where you went, what was caught, who came out.
+        </p>
+
+        <!-- To add a photo: save the file to images/gallery/ then add a line below.
+             Copy: <img src="images/gallery/your-photo.jpg" alt="Brief description"> -->
+        <div class="gallery">
+
+          <!-- No photos yet — add your first one using the instructions above! -->
+          <!-- <img src="images/gallery/april2026-01.jpg" alt="Description of the photo"> -->
+
+        </div>
+
+      </section>
+      <!-- ================= END OUTING ENTRY ================= -->
+
+      <hr>
+
+      <!-- COPY FROM HERE =====================================
+
+      <section class="outing" id="your-outing-id">
+
+        <h2>Month Year — Location or Event Name</h2>
+
+        <p class="outing-description">
+          Brief description of the outing (optional — delete if not needed).
+        </p>
+
+        <div class="gallery">
+          <img src="images/gallery/your-photo-01.jpg" alt="Description">
+          <img src="images/gallery/your-photo-02.jpg" alt="Description">
+        </div>
+
+      </section>
+      <hr>
+
+      TO HERE =============================================== -->
+
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Old Colony Anglers</p>
+    <div class="footer-social">
+      <!-- Replace PASTE_FACEBOOK_URL with your Facebook page URL -->
+      <a href="PASTE_FACEBOOK_URL" class="footer-social-link" aria-label="Old Colony Anglers on Facebook" target="_blank" rel="noopener">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+      </a>
+      <!-- Replace PASTE_INSTAGRAM_URL with your Instagram page URL -->
+      <a href="PASTE_INSTAGRAM_URL" class="footer-social-link" aria-label="Old Colony Anglers on Instagram" target="_blank" rel="noopener">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+      </a>
+    </div>
+  </footer>
+
+</body>
+</html>
