@@ -22,6 +22,7 @@ Everything in this list needs real content before the site is ready to share pub
 - [ ] **Lake map image** — download from MA DFW or Navionics, save to `images/waters/east-monponsett-map.jpg`, uncomment the `<img>` line
 
 ### Waters — West Monponsett
+- [ ] **Verify acreage** — currently set to ~117 acres, but a research source returned 282 acres (possibly the combined Monponsett system). Confirm against the MA DFW lake survey PDF before publishing.
 - [ ] **Max Depth** — blank field in the info table
 - [ ] **Access** — blank field in the info table
 - [ ] **Parking** — blank field in the info table
@@ -45,9 +46,9 @@ Everything in this list needs real content before the site is ready to share pub
 - [ ] **Lake map image** — save to `images/waters/burrage-pond-map.jpg`, replace the placeholder div with the `<img>` line
 
 ### Waters — Cleveland Pond
-- [ ] **Verify town** — currently set to East Bridgewater; confirm before publishing
-- [ ] **Acres**
-- [ ] **Max Depth**
+- [ ] **Verify town** — updated to Abington (Ames Nowell State Park) based on research; confirm this is correct
+- [ ] **Acres** — not found in public sources; pull from the MA DFW lake survey PDF at mass.gov/doc/cleveland-pond (the file exists but was inaccessible during research)
+- [ ] **Max Depth** — not found; same source as above
 - [ ] **Species** list
 - [ ] **Access** details
 - [ ] **Parking** details
@@ -68,19 +69,6 @@ Everything in this list needs real content before the site is ready to share pub
 - [ ] **MA DFW lake survey URL** — replace `PASTE_MA_DFW_URL`
 - [ ] **Google Maps link** — replace `PASTE_GOOGLE_MAPS_URL_HERE`
 - [ ] **Lake map image** — save to `images/waters/furnace-pond-map.jpg`, replace the placeholder div with the `<img>` line
-
-### Waters — Long Pond (Lakeville)
-- [ ] **Verify town(s)** — currently set to Lakeville; confirm if it touches any other towns
-- [ ] **Acres**
-- [ ] **Max Depth**
-- [ ] **Species** list
-- [ ] **Access** details
-- [ ] **Parking** details
-- [ ] **Boat Launch** details
-- [ ] **Fishing notes**
-- [ ] **MA DFW lake survey URL** — replace `PASTE_MA_DFW_URL`
-- [ ] **Google Maps link** — replace `PASTE_GOOGLE_MAPS_URL_HERE`
-- [ ] **Lake map image** — save to `images/waters/long-pond-lakeville-map.jpg`, replace the placeholder div with the `<img>` line
 
 ### Waters — Long Pond (Plymouth)
 - [ ] **Verify town(s)** — currently set to Plymouth and Carver; confirm which towns it touches
@@ -120,6 +108,7 @@ Everything in this list needs real content before the site is ready to share pub
 - [ ] **Lake map image** — save to `images/waters/sampsons-pond-map.jpg`, replace the placeholder div with the `<img>` line
 
 ### Waters — Silver Lake
+- [ ] **Verify fishing access** — Silver Lake is Brockton's primary drinking water supply. No boating is permitted. Shore fishing appears accessible from Silver Lake Sanctuary (Barses Lane, Kingston) but confirm current rules and whether any permit beyond a state license is required. Contact Kingston Town Hall at 781-585-0537.
 - [ ] **Verify town(s)** — currently set to Halifax, Kingston, Plympton; confirm all towns
 - [ ] **Update Town field** in the info table to show where the main access/parking is
 - [ ] **Acres**

@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch(domain:www.mass.gov)",
+      "WebFetch(domain:www.mafishfinder.com)",
+      "WebFetch(domain:en.wikipedia.org)",
+      "WebFetch(domain:www.nsrwa.org)",
+      "WebFetch(domain:www.massachusettspaddler.com)",
+      "WebFetch(domain:massachusettspaddler.com)",
+      "WebFetch(domain:www.bostonkayaker.com)",
+      "WebFetch(domain:storage.googleapis.com)",
+      "WebFetch(domain:www.centralplymouthcountywater.org)",
+      "WebFetch(domain:www.savebuzzardsbay.org)",
+      "WebFetch(domain:www.south-shore-hiking-trails.com)",
+      "WebFetch(domain:www.geocaching.com)",
+      "WebFetch(domain:archives.lib.state.ma.us)",
+      "WebFetch(domain:www.thefisherman.com)",
+      "WebFetch(domain:www.goosehummockshops.com)",
+      "WebFetch(domain:pembrokewatershed.com)",
+      "WebFetch(domain:fishbrain.com)"
+    ]
+  }
+}
