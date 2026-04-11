@@ -374,9 +374,9 @@ At the top of `gallery.html`, find the `<nav class="toc">` block. Outings are gr
 
 ---
 
-## Updating Club Officers
+## Updating Club organizers
 
-Open `about.html`. Find the officers table. Edit the text inside each `<td>` cell.
+Open `about.html`. Find the organizers table. Edit the text inside each `<td>` cell.
 
 To add a new officer row, copy one `<tr>` block:
 
