@@ -327,6 +327,111 @@ At the top of `waters.html`, find the `<nav class="toc">` block. Waters are grou
 
 ---
 
+## Adding a Species Entry
+
+### Step 1 — Add a photo (optional but recommended)
+
+1. Save the photo as `images/species/[species-id].jpg` — e.g. `images/species/yellow-perch.jpg`
+   (use lowercase with hyphens, matching the section `id` you'll set in Step 2)
+2. Skip this for now if you don't have a photo — the placeholder box will show automatically
+
+### Step 2 — Add the species section to `species.html`
+
+Open `species.html`. Find an existing species entry to use as a model. Copy the block from
+`<!-- ==================== SPECIES ENTRY =================== -->` through the closing `</section>` and
+paste it **in alphabetical order** among the existing entries (above the `<hr>` that separates sections).
+
+Then fill in each field:
+
+```html
+<!-- ==================== SPECIES ENTRY =================== -->
+<section class="water-section" id="yellow-perch">
+
+  <h2>Yellow Perch</h2>
+
+  <div class="water-map">
+    <!--
+      SPECIES PHOTO: When ready —
+      1. Save photo as  images/species/yellow-perch.jpg
+      2. Delete the <div class="water-map-placeholder"> line below
+      3. Uncomment the <img> line
+    -->
+    <!-- <img src="images/species/yellow-perch.jpg" alt="Yellow Perch"> -->
+    <div class="water-map-placeholder" aria-hidden="true"></div>
+  </div>
+
+  <div class="water-info">
+    <table>
+      <tbody>
+        <tr>
+          <th>Common Name</th>
+          <td>Yellow Perch</td>
+        </tr>
+        <tr>
+          <th>Scientific Name</th>
+          <td><em><a href="https://www.fishbase.se/summary/Perca-flavescens.html" target="_blank" rel="noopener">Perca flavescens</a></em></td>
+        </tr>
+        <tr>
+          <th>Baits &amp; Lures</th>
+          <td>Nightcrawlers, small jigs, inline spinners, small minnows</td>
+        </tr>
+        <tr>
+          <th>Local Waters</th>
+          <td>
+            <a href="waters.html#burrage-pond">Burrage Pond</a>,
+            <a href="waters.html#silver-lake">Silver Lake</a>
+          </td>
+        </tr>
+        <tr>
+          <th>Best Season</th>
+          <td>Spring and fall; active year-round</td>
+        </tr>
+        <tr>
+          <th>Typical Local Size</th>
+          <td>6–9 inches</td>
+        </tr>
+        <tr>
+          <th>Bag/Size Limit</th>
+          <td>No limit — <a href="https://www.mass.gov/masswildlife" target="_blank" rel="noopener">verify current regs</a></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p class="water-notes">
+    <strong>Fishing Tips:</strong> Your practical beginner-friendly tips here.
+  </p>
+
+</section>
+<!-- ================= END SPECIES ENTRY ================== -->
+```
+
+**Key details:**
+- The `id=` value (e.g. `id="yellow-perch"`) must be lowercase with hyphens. This is what the TOC link and waters.html links use.
+- **FishBase link:** The scientific name links to `https://www.fishbase.se/summary/[Genus]-[species].html` — replace `[Genus]` and `[species]` with the two-part scientific name, capitalized as shown (e.g. `Perca-flavescens`).
+- **Local Waters links** use `waters.html#[water-id]` format — the water's `id` from `waters.html`.
+- **Bag/Size Limit** should reflect current MA statewide regs and always include the "verify current regs" link.
+
+### Step 3 — Add a link to the TOC
+
+At the top of `species.html`, find the `<ul class="toc-list">` block. Add a link **in alphabetical order**:
+
+```html
+<li><a href="#yellow-perch">Yellow Perch</a></li>
+```
+
+### Step 4 — Update `waters.html`
+
+For each water where the new species is present, open `waters.html` and add the species name to that water's Species `<td>` cell, linked to the new species anchor:
+
+```html
+<a href="species.html#yellow-perch">Yellow Perch</a>
+```
+
+Keep the species list within each water entry in a consistent order (roughly: bass, pickerel, perch, panfish, catfish, trout).
+
+---
+
 ## Adding a Gallery Outing
 
 ### Step 1 — Save your photos
@@ -434,6 +539,7 @@ Do this once per year to keep the MA Regs page current:
 |---|---|
 | Add news item | `index.html` |
 | Add a water | `waters.html` + add image to `images/waters/` |
+| Add a species | `species.html` + `waters.html` + add image to `images/species/` |
 | Add gallery outing | `gallery.html` + add images to `images/gallery/` |
 | Update contacts | `about.html` |
 | Update regulations | `regulations.html` (see "Updating Fishing Regulations" above) |
