@@ -9,133 +9,20 @@ This guide explains how to maintain and update the club website. No coding exper
 Everything in this list needs real content before the site is ready to share publicly.
 
 ### Site-wide
-- [ ] **Club logo** — waiting on graphic designer. Swap into all 7 pages when received (see One-Time Setup below)
-- [x] **Facebook URL** — replace `PASTE_FACEBOOK_URL` in the footer of all 7 pages
-- [x] **Instagram URL** — replace `PASTE_INSTAGRAM_URL` in the footer of all 7 pages
+- [ ] **Club logo** — waiting on graphic designer. Swap into all 9 pages when received (see One-Time Setup below)
 - [ ] **Merch tab** — hidden until merchandise is ready. See "Enabling the Merch Tab" below to turn it on.
 - [ ] **Membership details** — fill in Annual Dues, Initiation Fee, How to Apply, and Meetings in the table on `about.html`
-
-### Waters — East Monponsett
-- [x] **Verify acreage** — 273 acres
-- [x] **Verify max depth** — 12 ft
-- [x] **Google Maps link** — real link in place
-- [x] **Lake map image** — `images/waters/east-monponsett-map.jpg` exists and is live
-
-### Waters — West Monponsett
-- [x] **Verify acreage** — 310 acres
-- [x] **Max Depth** — ~13 ft
-- [x] **Access** — Route 58 ramp, Halifax
-- [x] **Parking** — free lot at ramp
-- [x] **Boat Launch** — paved ramp with pier
-- [x] **Notes** — filled in
-- [x] **MA DFW lake survey URL** — live
-- [x] **Google Maps link** — live
-- [x] **Lake map image** — `images/waters/west-monponsett-map.jpg` in place
-
-### Waters — Burrage Pond
-- [x] **Verify town** — confirmed Halifax
-- [x] **Acres** — noted as multiple impoundments, no single confirmed figure
-- [x] **Max Depth** — ~4 ft
-- [x] **Species** list
-- [x] **Access** — Burrage WMA, Pleasant Street, Hanson
-- [x] **Parking** — free WMA lot
-- [x] **Boat Launch** — hand carry only
-- [x] **Fishing notes** — filled in
-- [x] **MA DFW lake survey URL** — N/A (no MA DFW survey exists for Burrage)
-- [x] **Google Maps link** — live
-- [x] **Lake map image** — `images/waters/burrage-pond-map.jpg` in place
-
-### Waters — Cleveland Pond
-- [x] **Verify town** — confirmed Abington (Ames Nowell State Park)
-- [x] **Acres** — 97
-- [x] **Max Depth** — 10 ft
-- [x] **Species** list
-- [x] **Access** — Ames Nowell State Park, Linwood Street, Abington
-- [x] **Parking** — free state park lot
-- [x] **Boat Launch** — non-motorized carry-in only
-- [x] **Fishing notes** — filled in
-- [x] **MA DFW lake survey URL** — live
-- [x] **Google Maps link** — live
-- [x] **Lake map image** — `images/waters/cleveland-pond-map.jpg` in place
-
-### Waters — Furnace Pond
-- [x] **Acres** — 115
-- [x] **Max Depth** — ~9 ft
-- [x] **Species** list
-- [x] **Access** — Route 14, Pembroke
-- [x] **Parking** — roadside on Route 14
-- [x] **Boat Launch** — car-top only
-- [x] **Fishing notes** — filled in
-- [x] **MA DFW lake survey URL** — live
-- [x] **Google Maps link** — live
-- [x] **Lake map image** — `images/waters/furnace-pond-map.jpg` in place
-
-### Waters — Long Pond (Plymouth)
-- [x] **Verify town(s)** — confirmed Plymouth and Carver
-- [x] **Acres** — ~227
-- [x] **Max Depth** — ~100 ft
-- [x] **Species** list
-- [x] **Access** — DCR ramp at 224 Clark Road, Plymouth
-- [x] **Parking** — free state lot, ~29 trailer spaces
-- [x] **Boat Launch** — paved DCR ramp; 50 HP limit
-- [x] **Fishing notes** — filled in
-- [x] **MA DFW lake survey URL** — live
-- [x] **Google Maps link** — live
-- [x] **Lake map image** — `images/waters/long-pond-plymouth-map.jpg` in place
-
-### Waters — Robbins Pond
-- [x] **Acres** — 124
-- [x] **Max Depth** — ~10 ft
-- [x] **Species** list
-- [x] **Access** — Pond Street, East Bridgewater
-- [x] **Parking** — roadside on Pond Street
-- [x] **Boat Launch** — informal gravel car-top only
-- [x] **Fishing notes** — filled in
-- [x] **MA DFW lake survey URL** — live
-- [x] **Google Maps link** — live
-- [x] **Lake map image** — `images/waters/robbins-pond-map.jpg` in place
-
-### Waters — Sampsons Pond
-- [x] **Acres** — 310
-- [x] **Max Depth** — ~14 ft
-- [x] **Species** list
-- [x] **Access** — 27 Lakeview Street, Carver
-- [x] **Parking** — Carver resident sticker required ($10/year at Town Hall)
-- [x] **Boat Launch** — paved ramp, trailers OK
-- [x] **Fishing notes** — filled in
-- [x] **MA DFW lake survey URL** — live
-- [x] **Google Maps link** — live
-- [x] **Lake map image** — `images/waters/sampsons-pond-map.jpg` in place
 
 ### Waters — Silver Lake
 - [ ] **Verify fishing access** — Silver Lake is Brockton's primary drinking water supply. No boating is permitted. Shore fishing appears accessible from Silver Lake Sanctuary (Barses Lane, Kingston) but confirm current rules and whether any permit beyond a state license is required. Contact Kingston Town Hall at 781-585-0537.
 - [ ] **Verify town(s)** — currently set to Halifax, Kingston, Plympton; confirm all towns
 - [ ] **Update Town field** — once access is confirmed, update to reflect which town the access point is in
-- [x] **Acres** — 640
-- [x] **Max Depth** — ~80 ft
-- [x] **Species** list
-- [x] **Access** — Silver Lake Sanctuary, Barses Lane, Kingston (shore only)
-- [x] **Parking** — small lot at sanctuary
-- [x] **Boat Launch** — none (no boating allowed)
-- [x] **Fishing notes** — filled in with reservoir caveat
-- [x] **MA DFW lake survey URL** — N/A (no MA DFW survey exists for Silver Lake)
-- [x] **Google Maps link** — live
-- [x] **Lake map image** — `images/waters/silver-lake-map.jpg` in place
-
-### Waters — Stetson Pond
-- [x] **Acres** — 93
-- [x] **Max Depth** — 33 ft
-- [x] **Species** list
-- [x] **Access** — Plymouth Street, Pembroke
-- [x] **Parking** — limited roadside off Plymouth Street
-- [x] **Boat Launch** — informal dirt launch, car-top only
-- [x] **Fishing notes** — filled in
-- [x] **MA DFW lake survey URL** — live
-- [x] **Google Maps link** — live
-- [x] **Lake map image** — `images/waters/stetson-pond-map.jpg` in place
 
 ### Gallery
 - [ ] **April 2026 outing** — add description and photos (`images/gallery/`)
+
+### Quickstart
+- [ ] **Join the Club form** — create a Google Form, get the embed URL, then uncomment the iframe block in Step 6 of `quickstart.html` and replace `PASTE_GOOGLE_FORM_EMBED_URL_HERE` with the embed URL
 
 ---
 
@@ -143,7 +30,7 @@ Everything in this list needs real content before the site is ready to share pub
 
 The Merch tab is hidden in the navigation on all pages. When you're ready to launch merchandise:
 
-1. Open **every** `.html` file (all 7: `index.html`, `waters.html`, `gallery.html`, `about.html`, `quickstart.html`, `licenses.html`, `merch.html`)
+1. Open **every** `.html` file (all 9: `index.html`, `waters.html`, `species.html`, `gallery.html`, `about.html`, `quickstart.html`, `licenses.html`, `regulations.html`, `merch.html`)
 2. In each file, find this commented-out line in the `<nav>` block:
    ```html
    <!-- <a href="merch.html">Merch</a> -->
@@ -189,18 +76,21 @@ OCA_Website/
 │
 ├── index.html          ← Home page and news feed
 ├── waters.html         ← Club fishing waters (one section per water)
+├── species.html        ← Local fish species guide
 ├── gallery.html        ← Photo gallery (one section per outing)
 ├── about.html          ← Club history and officer list
-├── quickstart.html     ← Beginner's fishing guide
+├── quickstart.html     ← Beginner's fishing guide (cards + YouTube embeds)
 ├── licenses.html       ← MA fishing license information
-├── merch.html          ← Club merchandise (placeholder)
+├── regulations.html    ← MA freshwater fishing regulations table
+├── merch.html          ← Club merchandise (placeholder, nav hidden)
 │
 ├── css/
 │   └── style.css       ← ALL colors and styles — one file controls the whole site
 │
 └── images/
     ├── gallery/        ← Drop outing photos here (referenced in gallery.html)
-    └── waters/         ← Drop lake map images here (referenced in waters.html)
+    ├── waters/         ← Drop lake map images here (referenced in waters.html)
+    └── species/        ← Drop species photos here (referenced in species.html)
 ```
 
 ---
@@ -507,7 +397,7 @@ Paste it inside the `<tbody>` section, above the `<!-- COPY FROM HERE` comment.
    ```html
    <a href="newpage.html">New Page</a>
    ```
-   Files to update: `index.html`, `waters.html`, `gallery.html`, `about.html`, `quickstart.html`, `licenses.html`, `merch.html`, and your new page itself.
+   Files to update: `index.html`, `waters.html`, `species.html`, `gallery.html`, `about.html`, `quickstart.html`, `licenses.html`, `regulations.html`, `merch.html`, and your new page itself.
 6. **Mark the active page** — in your new page's nav, add `class="active"` to its own link:
    ```html
    <a href="newpage.html" class="active">New Page</a>
@@ -515,6 +405,42 @@ Paste it inside the `<tbody>` section, above the `<!-- COPY FROM HERE` comment.
 
 ---
 
+
+## After Pushing Changes — Purge Cloudflare Cache
+
+The site runs behind Cloudflare. After pushing to GitHub, Cloudflare may serve visitors a cached (older) version of the page. If changes aren't showing up after a minute or two:
+
+1. Log into **dash.cloudflare.com**
+2. Select the `oldcolonyanglers.com` domain
+3. Go to **Caching → Configuration**
+4. Click **Purge Everything**
+
+Then do a hard refresh in your browser (**Ctrl+Shift+R**) to clear your local cache too.
+
+---
+
+## Updating the Quickstart Page
+
+The quickstart page (`quickstart.html`) is organized as 6 cards using the site's standard `.water-section` card style. Steps 1–5 are live; Step 6 (Join the Club) is commented out pending a Google Form.
+
+### To add the membership Google Form
+
+1. Create your form in Google Forms
+2. Click **Send → Embed tab** — copy the `src` URL from the `<iframe>` code shown
+3. Open `quickstart.html` and find the Step 6 block near the bottom — it's wrapped in `<!-- ... -->`
+4. Remove the `<!--` and `-->` comment tags to uncomment the whole section
+5. Replace `PASTE_GOOGLE_FORM_EMBED_URL_HERE` with the URL you copied
+
+### To replace or add a YouTube video
+
+1. Find a video on YouTube that allows embedding — open `https://www.youtube.com/embed/VIDEO_ID` directly in your browser to confirm it plays (if it says "Watch on YouTube" it's blocked)
+2. Use the clean embed URL format — **do not include the `?si=...` parameter** that YouTube sometimes appends:
+   ```
+   https://www.youtube-nocookie.com/embed/VIDEO_ID
+   ```
+3. Paste it into the `src` attribute of the relevant `<iframe>` in `quickstart.html`
+
+---
 
 ## Updating Fishing Regulations Each Year
 
