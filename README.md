@@ -78,7 +78,7 @@ OCA_Website/
 ├── waters.html         ← Club fishing waters (one section per water)
 ├── species.html        ← Local fish species guide
 ├── gallery.html        ← Photo gallery (one section per outing)
-├── about.html          ← Club history and officer list
+├── about.html          ← Club history and organizer list
 ├── quickstart.html     ← Beginner's fishing guide (cards + YouTube embeds)
 ├── licenses.html       ← MA fishing license information
 ├── regulations.html    ← MA freshwater fishing regulations table
@@ -373,7 +373,7 @@ At the top of `gallery.html`, find the `<nav class="toc">` block. Outings are gr
 
 Open `about.html`. Find the organizers table. Edit the text inside each `<td>` cell.
 
-To add a new officer row, copy one `<tr>` block:
+To add a new organizer row, copy one `<tr>` block:
 
 ```html
 <tr>
