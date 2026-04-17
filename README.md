@@ -125,6 +125,52 @@ Open `index.html`. Find the `<!-- Latest News -->` section. Copy one `<li>` bloc
 
 ---
 
+## Adding or Updating an Event
+
+Events live in two places — **both must be kept in sync**:
+- `events.html` — full event cards with details
+- `index.html` — short one-line summary in the Upcoming Events list
+
+### Adding a new event to `events.html`
+
+Find the `<!-- COPY FROM HERE` comment near the bottom of `events.html`. Copy the template block and paste it **above** that comment, in chronological order (earliest date first).
+
+```html
+<section class="water-section">
+  <h2>Event Name</h2>
+  <table class="water-info">
+    <tr><th>Date</th><td>Day, Month DD, YYYY</td></tr>
+    <tr><th>Time</th><td>0:00 AM – 0:00 PM</td></tr>
+    <tr><th>Location</th><td>Location Name</td></tr>
+  </table>
+  <p class="water-notes">
+    Description of the event.
+  </p>
+</section>
+```
+
+If the location is one of the club's waters, link it:
+```html
+<tr><th>Location</th><td><a href="waters.html#burrage-pond">Burrage Pond</a>, Hanson</td></tr>
+```
+
+### Adding the matching entry to `index.html`
+
+Open `index.html` and find the Upcoming Events `<ul class="news-list">` section. Add a `<li>` in chronological order:
+
+```html
+<li>
+  <span class="news-date">Saturday, Month DD, YYYY · Time · Location</span>
+  Event name — one-line description.
+</li>
+```
+
+### Moving a past event
+
+Once an event has passed, move its `<section>` block below the active events (but above the copy-paste template comment). Remove it from the Upcoming Events list on `index.html`.
+
+---
+
 ## Adding a New Water
 
 ### Step 1 — Get the depth map image from MA DFW
@@ -463,6 +509,7 @@ Do this once per year to keep the MA Regs page current:
 
 | Task | File to edit |
 |---|---|
+| Add/update an event | `events.html` + `index.html` (Upcoming Events list) |
 | Add news item | `index.html` |
 | Add a water | `waters.html` + add image to `images/waters/` |
 | Add a species | `species.html` + `waters.html` + add image to `images/species/` |
