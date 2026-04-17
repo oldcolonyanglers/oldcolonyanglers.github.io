@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Licenses — Old Colony Anglers</title>
+  <title>Events — Old Colony Anglers</title>
   <link rel="stylesheet" href="css/style.css">
   <link rel="icon" href="images/logo.png">
 </head>
@@ -20,17 +20,17 @@
     </div>
   </header>
   <div class="hero-banner">
-    <img src="images/hero-pond.jpg" alt="A scenic view of club waters"> 
+    <img src="images/hero-pond.jpg" alt="A scenic view of club waters">
   </div>
 
   <!-- NAV: If you add a new page, add its link here AND in every other page's nav -->
   <nav>
     <a href="index.html">Home</a>
-    <a href="events.html">Events</a>
+    <a href="events.html" class="active">Events</a>
     <a href="waters.html">Local Fishing Spots</a>
     <a href="species.html">Local Species</a>
     <a href="quickstart.html">Getting Started</a>
-    <a href="licenses.html" class="active">Licenses</a>
+    <a href="licenses.html">Licenses</a>
     <a href="regulations.html">Regulations</a>
     <a href="gallery.html">Gallery</a>
     <!-- <a href="merch.html">Merch</a> -->
@@ -40,70 +40,58 @@
   <main>
     <div class="container">
 
-      <h1>Fishing License Information</h1>
+      <h1>Events</h1>
 
       <p>
-        All anglers in Massachusetts are required to hold a valid state fishing license.
-        Licenses are issued by the Massachusetts Division of Fisheries &amp; Wildlife
-        (MassWildlife) and are purchased online through the <strong>MassFishHunt</strong> system.
+        All events are open to the public unless noted otherwise. No RSVP needed unless
+        food is involved — those will say so. Questions? Reach out on our
+        <a href="https://www.facebook.com/profile.php?id=61570957883466" target="_blank" rel="noopener">Facebook group</a>.
       </p>
 
-      <p>
-        <a href="https://www.mass.gov/massfishhunt" target="_blank" rel="noopener">
-          &rarr; Purchase or renew your license at mass.gov/massfishhunt
-        </a>
-      </p>
+      <!-- To add a new event: copy one <section> block below and fill it in.
+           Keep events in chronological order, newest upcoming first.
+           Move past events to the bottom. -->
 
-      <hr>
+      <section class="water-section">
+        <h2>Spring Opener</h2>
+        <table class="water-info">
+          <tr><th>Date</th><td>Saturday, May 10, 2026</td></tr>
+          <tr><th>Time</th><td>8:00 AM – Noon</td></tr>
+          <tr><th>Location</th><td>East Lake Monponsett, Halifax</td></tr>
+        </table>
+        <p class="water-notes">
+          Our first outing of the season. Bring whatever gear you have — we'll help
+          beginners get set up. Good spot for panfish and bass. Meet at the main parking
+          area off Route 106.
+        </p>
+      </section>
 
-      <h2>Fishing Licenses</h2>
+      <section class="water-section">
+        <h2>Summer Meetup</h2>
+        <table class="water-info">
+          <tr><th>Date</th><td>Saturday, July 12, 2026</td></tr>
+          <tr><th>Time</th><td>7:00 AM – 11:00 AM</td></tr>
+          <tr><th>Location</th><td>Stetson Pond, Hanson</td></tr>
+        </table>
+        <p class="water-notes">
+          Mid-summer outing at Stetson Pond. Family-friendly, catch and release.
+          Kids welcome — there are plenty of bluegill willing to bite.
+        </p>
+      </section>
 
-      <table>
-        <thead>
-          <tr>
-            <th>License Type</th>
-            <th>Who Needs It</th>
-            <th>Notes</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Freshwater Fishing</td>
-            <td>Anyone 15+ fishing in inland waters</td>
-            <td>$40. Register at mass.gov/massfishhunt</td>
-          </tr>
-          <tr>
-            <td>Saltwater Fishing (Recreational)</td>
-            <td>Anyone 16+ fishing in MA coastal/marine waters</td>
-            <td>$10. Register at mass.gov/massfishhunt</td>
-          </tr>
-        </tbody>
-      </table>
-
-      <h2>Season Dates &amp; Regulations</h2>
-
-      <!-- Update season dates each year — MassWildlife publishes these annually -->
-      <p>
-        Season dates and size/bag limits vary by species and are set annually by MassWildlife.
-        Always check the current year's regulations before your first trip of the season.
-      </p>
-
-      <p>
-        <a href="https://www.mass.gov/masswildlife" target="_blank" rel="noopener">
-          &rarr; View current fishing regulations at mass.gov/masswildlife
-        </a>
-      </p>
-
-      <hr>
-
-      <h2>First Time Buying a License?</h2>
-      <p>
-        You'll need to create an account on MassFishHunt.Once registered, renewals are quick each year.
-      </p>
-
-      <p>
-        Under 15 and want to fish? No license needed!
-      </p>
+      <!-- COPY FROM HERE
+      <section class="water-section">
+        <h2>Event Name</h2>
+        <table class="water-info">
+          <tr><th>Date</th><td>Day, Month DD, YYYY</td></tr>
+          <tr><th>Time</th><td>0:00 AM – 0:00 PM</td></tr>
+          <tr><th>Location</th><td>Location Name</td></tr>
+        </table>
+        <p class="water-notes">
+          Description of the event.
+        </p>
+      </section>
+      TO HERE — paste above this comment to add more events -->
 
     </div>
   </main>
@@ -111,11 +99,9 @@
   <footer>
     <p>&copy; 2026 Old Colony Anglers</p>
     <div class="footer-social">
-      <!-- Replace PASTE_FACEBOOK_URL with your Facebook page URL -->
       <a href="https://www.facebook.com/profile.php?id=61570957883466" class="footer-social-link" aria-label="Old Colony Anglers on Facebook" target="_blank" rel="noopener">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
       </a>
-      <!-- Replace PASTE_INSTAGRAM_URL with your Instagram page URL -->
       <a href="https://www.instagram.com/oldcolonyanglers/" class="footer-social-link" aria-label="Old Colony Anglers on Instagram" target="_blank" rel="noopener">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
       </a>
