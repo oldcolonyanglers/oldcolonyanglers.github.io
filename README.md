@@ -11,8 +11,6 @@ Everything in this list needs real content before the site is ready to share pub
 ### Site-wide
 - [ ] **Club logo** — waiting on graphic designer. Swap into all 9 pages when received (see One-Time Setup below)
 - [ ] **Merch tab** — hidden until merchandise is ready. See "Enabling the Merch Tab" below to turn it on.
-- [ ] **Membership details** — fill in Annual Dues, Initiation Fee, How to Apply, and Meetings in the table on `about.html`
-
 ### Waters — Silver Lake
 - [ ] **Verify fishing access** — Silver Lake is Brockton's primary drinking water supply. No boating is permitted. Shore fishing appears accessible from Silver Lake Sanctuary (Barses Lane, Kingston) but confirm current rules and whether any permit beyond a state license is required. Contact Kingston Town Hall at 781-585-0537.
 - [ ] **Verify town(s)** — currently set to Halifax, Kingston, Plympton; confirm all towns
@@ -20,9 +18,6 @@ Everything in this list needs real content before the site is ready to share pub
 
 ### Gallery
 - [ ] **April 2026 outing** — add description and photos (`images/gallery/`)
-
-### Quickstart
-- [ ] **Join the Club form** — create a Google Form, get the embed URL, then uncomment the iframe block in Step 6 of `quickstart.html` and replace `PASTE_GOOGLE_FORM_EMBED_URL_HERE` with the embed URL
 
 ---
 
@@ -468,14 +463,6 @@ Then do a hard refresh in your browser (**Ctrl+Shift+R**) to clear your local ca
 ## Updating the Quickstart Page
 
 The quickstart page (`quickstart.html`) is organized as 6 cards using the site's standard `.water-section` card style. Steps 1–5 are live; Step 6 (Join the Club) is commented out pending a Google Form.
-
-### To add the membership Google Form
-
-1. Create your form in Google Forms
-2. Click **Send → Embed tab** — copy the `src` URL from the `<iframe>` code shown
-3. Open `quickstart.html` and find the Step 6 block near the bottom — it's wrapped in `<!-- ... -->`
-4. Remove the `<!--` and `-->` comment tags to uncomment the whole section
-5. Replace `PASTE_GOOGLE_FORM_EMBED_URL_HERE` with the URL you copied
 
 ### To replace or add a YouTube video
 
