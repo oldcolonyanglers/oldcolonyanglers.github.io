@@ -153,6 +153,47 @@ nav a.active {
   background-color: var(--color-primary);
 }
 
+/* Hamburger button — hidden on desktop */
+.nav-toggle {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.6rem 1rem;
+  float: right;
+}
+
+.nav-toggle span {
+  display: block;
+  width: 22px;
+  height: 2px;
+  background: var(--color-nav-text);
+  margin: 5px 0;
+}
+
+@media (max-width: 768px) {
+  nav {
+    text-align: left;
+    overflow: hidden;
+  }
+
+  .nav-toggle {
+    display: block;
+  }
+
+  nav a {
+    display: none;
+    width: 100%;
+    text-align: left;
+    border-top: 1px solid var(--color-primary);
+    box-sizing: border-box;
+  }
+
+  nav.nav-open a {
+    display: block;
+  }
+}
+
 /* =============================================================
    MAIN CONTENT
    ============================================================= */
