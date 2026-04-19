@@ -173,16 +173,6 @@ nav a.active {
   margin: 5px 0;
 }
 
-.nav-toggle::after {
-  content: "Menu";
-  display: block;
-  color: var(--color-nav-text);
-  font-size: 0.7rem;
-  letter-spacing: 0.05em;
-  text-align: center;
-  margin-top: 2px;
-}
-
 @media (max-width: 768px) {
   nav {
     text-align: left;
