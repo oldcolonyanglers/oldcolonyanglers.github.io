@@ -16,9 +16,6 @@ Everything in this list needs real content before the site is ready to share pub
 - [ ] **Verify town(s)** — currently set to Halifax, Kingston, Plympton; confirm all towns
 - [ ] **Update Town field** — once access is confirmed, update to reflect which town the access point is in
 
-### Gallery
-- [ ] **April 2026 outing** — add description and photos (`images/gallery/`)
-
 ---
 
 ## Enabling the Merch Tab
