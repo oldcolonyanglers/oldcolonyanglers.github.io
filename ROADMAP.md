@@ -21,6 +21,22 @@ These must be resolved before sharing the site with members.
 
 ---
 
+## SEO Optimization
+
+Do these before going live. Items 1–3 can be done immediately (no logo dependency).
+
+- [x] **`sitemap.xml`** — Create a static sitemap listing all 11 page URLs with `<lastmod>` dates. Helps Google discover every page. Highest-leverage item missing from the site.
+- [x] **`robots.txt`** — Add a minimal `robots.txt` (`User-agent: * / Allow: /`) that welcomes crawlers and references the sitemap.
+- [x] **Structured data (JSON-LD)** — Add a `<script type="application/ld+json">` block to `index.html` with the club name, URL, and location. Helps Google surface the site for local searches like "fishing club Halifax MA."
+- [ ] **Alt text audit** — Review all images across all 11 pages. Water map images and gallery photos should have descriptive alt text (e.g. `alt="Bathymetric map of East Monponsett Pond, Halifax MA"`).
+- [ ] **Fix home page title** — Change `<title>Home — Old Colony Anglers</title>` to `<title>Old Colony Anglers | Freshwater Fishing Club, Halifax MA</title>`. Google weights the first words; "Home" is wasted space.
+- [ ] **Heading hierarchy** — Verify each page has exactly one `<h1>` that includes a keyword phrase. Waters and species pages especially benefit from descriptive `<h1>` text.
+- [ ] **Internal linking** — Add links to specific water names in the `index.html` news/events section to build topical depth between pages.
+- [ ] **Google Search Console** — Submit the domain and sitemap at search.google.com/search-console. Free; shows what queries surface the site and flags crawl errors. Do this at launch.
+- [ ] **Backlinks** — Get listed on local town websites, MA fishing forums, or the MassWildlife club directory. Bigger long-term SEO driver than any on-page tweak.
+
+---
+
 ## Phase 2 — Launch
 
 These steps are gated on the logo arriving. Do them in order once it's in hand.

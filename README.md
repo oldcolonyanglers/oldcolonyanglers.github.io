@@ -34,6 +34,15 @@ The Merch tab is hidden in the navigation on all pages. When you're ready to lau
 
 The tab will appear in the navigation on every page. Make sure `merch.html` has real content before you do this.
 
+4. **Add `merch.html` to the sitemap** — open `sitemap.xml` and add this entry before the closing `</urlset>` tag:
+   ```xml
+   <url>
+     <loc>https://oldcolonyanglers.com/merch.html</loc>
+     <lastmod>YYYY-MM-DD</lastmod>
+   </url>
+   ```
+   Replace `YYYY-MM-DD` with today's date.
+
 ---
 
 ## One-Time Setup
