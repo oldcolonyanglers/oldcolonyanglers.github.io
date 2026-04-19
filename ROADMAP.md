@@ -12,7 +12,7 @@ These must be resolved before sharing the site with members.
 - [ ] **Pre-launch site review** — go through all 11 pages and check for broken links, leftover placeholder text, and typos before going live.
 - [ ] **Mobile test** — open the site on a phone and verify all pages render correctly, especially the hamburger nav.
 - [ ] **Confirm club email** — verify `oldcolonyanglers@gmail.com` is set up and actively monitored before the site goes live. It's linked on the Contact page.
-- [ ] **Open Graph meta tags** — add OG tags to all 11 pages so shared links on Facebook, Instagram, and iMessage show a proper preview card (title, description, image) instead of a generic or broken one.
+- [x] **Open Graph meta tags** — add OG tags to all 11 pages so shared links on Facebook, Instagram, and iMessage show a proper preview card (title, description, image) instead of a generic or broken one.
 - [x] **West Monponsett** — Max Depth, Access, Parking, Boat Launch, and Notes fields are all blank. Matt to fill in.
 - [x] **Silver Lake** — Confirm shore fishing access rules. Lake is Brockton's primary drinking water supply; a permit beyond a state license may be required. Contact Kingston Town Hall: 781-585-0537. Once confirmed, update the Town field and Access/Notes fields in `waters.html`.
 - [x] **East Monponsett** — Verify ~239 acres and ~16 ft max depth against the MA DFW lake survey PDF before publishing.
@@ -107,5 +107,5 @@ No commitment on timeline — just ideas worth keeping track of.
 - **Species leaderboard** — A "biggest fish per species caught by a member" page would be a fun keepsake. Worth revisiting once the club has a roster and a season of catches. Note: frame it as a record wall or hall of fame rather than a live competition, to keep the non-tournament spirit of the club intact.
 - **New waters** — No additions planned yet, but the template is in `waters.html` whenever a new spot gets added.
 - **Private waters** — If the club requests access to private waters in the area, a free membership roster would help make the case. See `membership.html`.
-- **Contact form** — Replace the plain email link on `about.html` with an embedded Google Form for general inquiries. Lowers the barrier for new members who don't want to send a cold email. Free via Google Forms; no backend needed.
+- ~~**Contact form** — Replace the plain email link on `about.html` with an embedded Google Form for general inquiries. Lowers the barrier for new members who don't want to send a cold email. Free via Google Forms; no backend needed.~~
 - **Ongoing social cadence** — Keep Instagram and Facebook active between outings with occasional posts: species spotlights, fishing tips, water conditions, or throwback outing photos. Helps grow the following without waiting for the next event.
