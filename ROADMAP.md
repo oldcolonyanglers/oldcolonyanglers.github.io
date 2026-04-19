@@ -48,7 +48,7 @@ The Facebook group is currently private. Get both platforms ready before going p
 - [x] Write a short bio (club name, location, link to website)
 - [ ] Post at least 1–2 photos before going public so the feed isn't empty (a fishing photo, the logo, or a teaser for the May outing)
 - [ ] Make the account public
-- [ ] **Establish a hashtag set** — build a consistent list of tags to use on every Instagram post for organic discovery. Suggested starting point: `#MassachusettsFishing #SouthShoreFishing #FreshwaterFishing #MAFishing #BassFishing #NewEnglandFishing #FishingClub #OldColonyAnglers`. Add or swap based on what gets traction.
+- [ ] **Establish a hashtag set** — build a consistent list of tags to use on every Instagram post for organic discovery. Suggested starting point: `#OldColonyAnglers, #MassachusettsFishing #SouthShoreFishing #FreshwaterFishing #MAFishing #BassFishing #NewEnglandFishing #FishingClub`. Add or swap based on what gets traction.
 
 ### 2b — May Outing Promotion
 Do these at the same time as the site launch announcement.
@@ -107,5 +107,5 @@ No commitment on timeline — just ideas worth keeping track of.
 - **Species leaderboard** — A "biggest fish per species caught by a member" page would be a fun keepsake. Worth revisiting once the club has a roster and a season of catches. Note: frame it as a record wall or hall of fame rather than a live competition, to keep the non-tournament spirit of the club intact.
 - **New waters** — No additions planned yet, but the template is in `waters.html` whenever a new spot gets added.
 - **Private waters** — If the club requests access to private waters in the area, a free membership roster would help make the case. See `membership.html`.
-- ~~**Contact form** — Replace the plain email link on `about.html` with an embedded Google Form for general inquiries. Lowers the barrier for new members who don't want to send a cold email. Free via Google Forms; no backend needed.~~
+- **Contact form** — Replace the plain email link on `about.html` with an embedded Google Form for general inquiries. Lowers the barrier for new members who don't want to send a cold email. Free via Google Forms; no backend needed.
 - **Ongoing social cadence** — Keep Instagram and Facebook active between outings with occasional posts: species spotlights, fishing tips, water conditions, or throwback outing photos. Helps grow the following without waiting for the next event.
