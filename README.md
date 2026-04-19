@@ -59,6 +59,8 @@ The logo will appear as a circle in the header on every page. The CSS already ha
 
 > **Favicon bonus:** The favicon (browser tab icon) is already wired up on every page pointing to `images/logo.png`. Once you drop the logo file in, it will appear in the tab automatically — no extra steps needed.
 
+> **Social sharing image (Open Graph):** Every page has OG/Twitter meta tags that currently use `hero-pond.jpg` as the preview image. Once the logo is received, consider swapping this to the logo or a purpose-made 1200×630px landscape image for better previews on Facebook, iMessage, etc. To update, find and replace `hero-pond.jpg` in the `og:image` and `twitter:image` meta tags across all 11 HTML files.
+
 ---
 
 ## Folder Structure

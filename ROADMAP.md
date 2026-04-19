@@ -8,7 +8,7 @@ Status as of April 2026. This is a living document — check items off as they'r
 
 These must be resolved before sharing the site with members.
 
-- [ ] **Logo** — waiting on graphic designer. When received, swap into all 11 pages (see README for exact steps). Also unlocks the favicon.
+- [ ] **Logo** — waiting on graphic designer. When received, swap into all 11 pages (see README for exact steps). Also unlocks the favicon. Also update the `og:image` and `twitter:image` meta tags across all 11 pages from `hero-pond.jpg` to the logo or a dedicated 1200×630px landscape crop.
 - [ ] **Pre-launch site review** — go through all 11 pages and check for broken links, leftover placeholder text, and typos before going live.
 - [ ] **Mobile test** — open the site on a phone and verify all pages render correctly, especially the hamburger nav.
 - [ ] **Confirm club email** — verify `oldcolonyanglers@gmail.com` is set up and actively monitored before the site goes live. It's linked on the Contact page.
