@@ -10,8 +10,8 @@ These must be resolved before sharing the site with members.
 
 - [ ] **Logo** — waiting on graphic designer. When received, swap into all 11 pages (see README for exact steps). Also unlocks the favicon. Also update the `og:image` and `twitter:image` meta tags across all 11 pages from `hero-pond.jpg` to the logo or a dedicated 1200×630px landscape crop.
 - [ ] **Pre-launch site review** — go through all 11 pages and check for broken links, leftover placeholder text, and typos before going live.
-- [ ] **Mobile test** — open the site on a phone and verify all pages render correctly, especially the hamburger nav.
-- [ ] **Confirm club email** — verify `oldcolonyanglers@gmail.com` is set up and actively monitored before the site goes live. It's linked on the Contact page.
+- [x] **Mobile test** — open the site on a phone and verify all pages render correctly, especially the hamburger nav.
+- [x] **Confirm club email** — verify `oldcolonyanglers@gmail.com` is set up and actively monitored before the site goes live. It's linked on the Contact page.
 - [x] **Open Graph meta tags** — add OG tags to all 11 pages so shared links on Facebook, Instagram, and iMessage show a proper preview card (title, description, image) instead of a generic or broken one.
 - [x] **West Monponsett** — Max Depth, Access, Parking, Boat Launch, and Notes fields are all blank. Matt to fill in.
 - [x] **Silver Lake** — Confirm shore fishing access rules. Lake is Brockton's primary drinking water supply; a permit beyond a state license may be required. Contact Kingston Town Hall: 781-585-0537. Once confirmed, update the Town field and Access/Notes fields in `waters.html`.
@@ -34,7 +34,7 @@ Do these before going live. Items 1–3 can be done immediately (no logo depende
 - [x] **Page titles on other pages** — Other pages could be more keyword-rich. Example: `waters.html` → `Freshwater Fishing Spots on the South Shore | Old Colony Anglers`.
 - [x] **Heading hierarchy** — Verify each page has exactly one `<h1>` that includes a keyword phrase. Waters and species pages especially benefit from descriptive `<h1>` text.
 - [x] **Internal linking** — Add links to specific water names in the `index.html` news/events section to build topical depth between pages.
-- [ ] **Meta descriptions on every page** — Each page should have a unique `<meta name="description">` with relevant keywords. Currently most pages share the same description or may have none.
+- [x] **Meta descriptions on every page** — Each page should have a unique `<meta name="description">` with relevant keywords. Currently most pages share the same description or may have none.
 - [x] **Event structured data (JSON-LD) on `events.html`** — Google has a specific `Event` schema type that can surface outings directly in search results with date, time, and location.
 - [x] **Sitemap `lastmod` maintenance** — `sitemap.xml` dates are hardcoded. Add a note in the README reminding Matt to update `<lastmod>` for any page he edits before pushing.
 - [ ] **Google Search Console** — Submit the domain and sitemap at search.google.com/search-console. Free; shows what queries surface the site and flags crawl errors. Do this at launch.
@@ -130,3 +130,7 @@ No commitment on timeline — just ideas worth keeping track of.
 - **Private waters** — If the club requests access to private waters in the area, a free membership roster would help make the case. See `membership.html`.
 - **Contact form** — Replace the plain email link on `about.html` with an embedded Google Form for general inquiries. Lowers the barrier for new members who don't want to send a cold email. Free via Google Forms; no backend needed.
 - **Ongoing social cadence** — Keep Instagram and Facebook active between outings with occasional posts: species spotlights, fishing tips, water conditions, or throwback outing photos. Helps grow the following without waiting for the next event.
+- **Kids fishing tips page** — A short, beginner-focused page aimed at parents bringing kids to their first outing. Fits the club's mission and targets a specific search audience ("kids fishing South Shore MA"). Could live as a new page or as an extra section in `quickstart.html`.
+- **Printable PDFs** — Once the logo is in hand, design a set of printable PDFs (outing checklist, species ID card, etc.) exactly how you want them. Host them on the site as downloadable links.
+- **Local bait shops** — Names, addresses, and hours for bait shops near the club waters. Pure utility for members, and good for local SEO. Would fit naturally as a section in `licenses.html` alongside the resources links, or in a dedicated resources section.
+- **Club etiquette page** — Catch and release expectations, kid-safe and alcohol-free environment, general conduct. Hold off until the club has formal membership and a few seasons under its belt — easier to write from experience than to guess at edge cases upfront.
