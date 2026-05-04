@@ -4,17 +4,10 @@ This guide explains how to maintain and update the club website. No coding exper
 
 ---
 
-## TODO — Placeholder Data
+## TODO — When Ready
 
-Everything in this list needs real content before the site is ready to share publicly.
-
-### Site-wide
-- [ ] **Club logo** — waiting on graphic designer. Swap into all 9 pages when received (see One-Time Setup below)
 - [ ] **Merch tab** — hidden until merchandise is ready. See "Enabling the Merch Tab" below to turn it on.
-### Waters — Silver Lake
-- [ ] **Verify fishing access** — Silver Lake is Brockton's primary drinking water supply. No boating is permitted. Shore fishing appears accessible from Silver Lake Sanctuary (Barses Lane, Kingston) but confirm current rules and whether any permit beyond a state license is required. Contact Kingston Town Hall at 781-585-0537.
-- [ ] **Verify town(s)** — currently set to Halifax, Kingston, Plympton; confirm all towns
-- [ ] **Update Town field** — once access is confirmed, update to reflect which town the access point is in
+- [ ] **Gallery tab** — hidden until photos are available. Uncomment `<!-- <a href="gallery.html">Gallery</a> -->` in the `<nav>` of all 11 HTML files.
 
 ---
 
@@ -22,7 +15,7 @@ Everything in this list needs real content before the site is ready to share pub
 
 The Merch tab is hidden in the navigation on all pages. When you're ready to launch merchandise:
 
-1. Open **every** `.html` file (all 9: `index.html`, `waters.html`, `species.html`, `gallery.html`, `about.html`, `quickstart.html`, `licenses.html`, `regulations.html`, `merch.html`)
+1. Open **every** `.html` file (all 11: `index.html`, `events.html`, `waters.html`, `species.html`, `gallery.html`, `about.html`, `quickstart.html`, `licenses.html`, `regulations.html`, `membership.html`, `merch.html`)
 2. In each file, find this commented-out line in the `<nav>` block:
    ```html
    <!-- <a href="merch.html">Merch</a> -->
@@ -42,33 +35,6 @@ The tab will appear in the navigation on every page. Make sure `merch.html` has 
    </url>
    ```
    Replace `YYYY-MM-DD` with today's date.
-
----
-
-## One-Time Setup
-
-Complete these steps once when you first receive your assets from the designer.
-
-### Adding Your Logo
-
-When you receive your logo from the graphic designer:
-
-1. Save the file as `images/logo.png` (PNG with transparent background works best)
-2. Open **every** `.html` file
-3. Find this line and delete it:
-   ```html
-   <div class="site-logo-placeholder" aria-hidden="true"></div>
-   ```
-4. Uncomment the line above it:
-   ```html
-   <img src="images/logo.png" alt="Old Colony Anglers logo" class="site-logo">
-   ```
-
-The logo will appear as a circle in the header on every page. The CSS already handles the circular crop.
-
-> **Favicon bonus:** The favicon (browser tab icon) is already wired up on every page pointing to `images/logo.png`. Once you drop the logo file in, it will appear in the tab automatically — no extra steps needed.
-
-> **Social sharing image (Open Graph):** Every page has OG/Twitter meta tags that currently use `hero-pond.jpg` as the preview image. Once the logo is received, consider swapping this to the logo or a purpose-made 1200×630px landscape image for better previews on Facebook, iMessage, etc. To update, find and replace `hero-pond.jpg` in the `og:image` and `twitter:image` meta tags across all 11 HTML files.
 
 ---
 
